@@ -41,14 +41,9 @@ RUN set -xe; for package in \
       babel-plugin-transform-runtime \
       babel-preset-es2015 \
       babel-preset-stage-0 \
-      browserify \
-      coffee-script \
       eslint \
       express \
       forever \
-      grunt \
-      grunt-cli \
-      gulp \
       mkdirp\
       npm \
       ncp \
