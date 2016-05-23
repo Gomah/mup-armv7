@@ -31,6 +31,7 @@ RUN set -xe; for package in \
       ncp \
       pm2 \
       rimraf \
+      vue-cli \
       webpack \
       webpack-dev-server \
     ; do npm install -g $package; done
