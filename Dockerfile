@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM debian:jessie
+FROM debian:latest
 MAINTAINER Thomas M <hi@gomah.fr> (@gomah)
 
 RUN apt-get update && apt-get install -y wget && apt-get clean
